@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ok"
+    android:padding="10dp"
+    tools:context=".Activity.Activity.SignInActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/footer"/>
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama"
+        android:inputType="text"
+        android:drawableRight="@drawable/ic_person_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:layout_marginTop="35dp"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sandi"
+        android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:layout_marginTop="3dp"/>
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="55dp"
+        android:text="LOGIN"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

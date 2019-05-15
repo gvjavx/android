@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ok"
+    tools:context=".Activity.Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/spls"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="230dp"/>
+        <TextView
+            android:id="@+id/tv_slgn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/slogan"
+            android:textColor="#fff"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:id="@+id/tv_slogan"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/sloogan"
+            android:textColor="#fff"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:layout_margin="8dp"
+            android:text="Sign up"
+            android:background="@color/buttonUp"
+            android:shadowColor="#000000"/>
+
+        <Button
+            android:id="@+id/btnIn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#FF1000"
+            android:layout_margin="8dp"
+            android:text="Sign In"
+            android:background="@color/buttonIn"
+            android:shadowColor="#000000" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

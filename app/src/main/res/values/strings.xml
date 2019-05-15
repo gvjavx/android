@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SteakSurabaya</string>
+    <string name="slogan">Dimanapun anda berada</string>
+    <string name="sloogan">Kami akan selalu ada untuk anda</string>
+    <string name="nama">username</string>
+    <string name="tlpn">handphone</string>
+    <string name="sandi">password</string>
+    <string name="alamat">alamat</string>
+    <string name="ttl">Tanggal Lahir</string>
+    <string name="email">email</string>
+</resources>

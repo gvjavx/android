@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "401098086198",
+    "firebase_url": "https://steakbb-3c9ca.firebaseio.com",
+    "project_id": "steakbb-3c9ca",
+    "storage_bucket": "steakbb-3c9ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401098086198:android:5a14a4f8e7359d11",
+        "android_client_info": {
+          "package_name": "com.ryzananda.sbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401098086198-dtmtp8ngueofhvffb18cigk3650bagjr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ryzananda.sbs",
+            "certificate_hash": "f57ceda1da4fee3c1e2c02b6bd195dfc01f01104"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwkbqHJCCMd8HwRhpcLFN-5hjuHjjtd9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401098086198-9cpod59kiidppsf3nd76npig4m3esvdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

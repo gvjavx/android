@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ok"
+    tools:context=".Activity.Activity.SignUpActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/footer"/>
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nama"
+        android:inputType="text"
+        android:drawableRight="@drawable/ic_person_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edt_tlvn"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tlpn"
+        android:drawableRight="@drawable/ic_phone_iphone_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:layout_marginTop="3dp"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sandi"
+        android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:layout_marginTop="3dp"/>
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:drawableRight="@drawable/ic_message_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:layout_marginTop="3dp"/>
+
+    <EditText
+        android:id="@+id/edt_alamat"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/alamat"
+        android:drawableRight="@drawable/ic_place_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:layout_marginTop="3dp"/>
+
+    <EditText
+        android:id="@+id/edt_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ttl"
+        android:drawableRight="@drawable/ic_perm_contact_calendar_black_24dp"
+        android:background="@drawable/rauded_form"
+        android:padding="18dp"
+        android:inputType="date"
+        android:layout_marginTop="3dp"/>
+
+
+    <Button
+        android:id="@+id/btn_dftr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="50dp"
+        android:text="Daftar"
+        android:textColor="#ffff"
+        android:textStyle="bold"/>
+
+</LinearLayout>
